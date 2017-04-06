@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="id.web.fahrifirdaus.jobseeker.DetailJobActivity">
+
+    <TextView
+        android:id="@+id/txt_det_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Programmer pada Perusahaan Ternama"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/lite_icon"/>
+
+    <Button
+        android:id="@+id/btn_apply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lamar Pekerjaan"
+        android:layout_marginTop="10dp"
+        android:onClick="applyJob"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Category" />
+                <TextView
+                    android:id="@+id/txt_det_category"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Web Development" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Lokasi" />
+                <TextView
+                    android:id="@+id/txt_det_location"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Semarang Kota" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Gaji" />
+                <TextView
+                    android:id="@+id/txt_det_salary"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="10.000.000" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Deadline Pendaftaran" />
+                <TextView
+                    android:id="@+id/txt_det_deadline"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="15 - 12 - 2017" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Perusahaan" />
+                <TextView
+                    android:id="@+id/txt_det_provider"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="PT. Mosak Masik" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Deskripsi"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_span="2"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/txt_det_description"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_span="2"
+                    android:text="Lorem Ipsum dolor sit amet inseptious an rene o dewe mbuh aku rak ngerti nulis opo meneh e" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

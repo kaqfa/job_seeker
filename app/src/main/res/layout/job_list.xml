@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_job"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/lite_icon"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:stretchColumns="1">
+        <TableRow
+            android:paddingTop="3dp"
+            android:paddingBottom="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web Developer di Perusahaan"
+                android:id="@+id/txt_job_title"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_span="2"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kota Semarang"
+                android:textStyle="bold"
+                android:id="@+id/txt_job_location"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.000.000"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+                android:layout_gravity="end"
+                android:id="@+id/txt_job_salary"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
