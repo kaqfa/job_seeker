@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/Documents/Github/JobSeeker/androidapp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d78b6759fe7c3ddec3b4e50538c3772cb9ddc82a">
+        <dex dex="/Users/macbookpro/Documents/Github/JobSeeker/androidapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_83ff645b685698201b2b7bcce5d01e0e06a6e0aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/Documents/Github/JobSeeker/androidapp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/macbookpro/Documents/Github/JobSeeker/androidapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f807d08166a28f5c3806aa04a2a263dc99d38e5a/classes.dex" />
+    </item>
+
+</items>
